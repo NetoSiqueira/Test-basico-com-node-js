@@ -7,7 +7,7 @@ test('Devo saber trabalhar com objetos', () =>{
     const obj = {name: 'Jhon', mail:'john@mail.com'};
     expect(obj).toHaveProperty('name');
     expect(obj).toHaveProperty('name', 'Jhon');
-    expect(obj.name).toBe('Jhonn');
+    expect(obj.name).toBe('Jhon');
 
     const obj2 = {name: 'Jhon', mail:'john@mail.com'};
     expect(obj).toEqual(obj2);
