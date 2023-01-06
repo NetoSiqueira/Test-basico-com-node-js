@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/server.js",
     "test": "jest",
-    "lint": "eslint src/** test/** --fix"
+    "lint": "eslint src/** test/** --fix",
+    "secure-mode": "jest --watch --verbose=true"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +20,7 @@
     "supertest": "3.3.0"
   },
   "dependencies": {
+    "body-parser": "1.18.3",
     "express": "4.16.4"
   }
 }
